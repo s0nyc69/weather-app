@@ -9,7 +9,7 @@ export default function WeatherCard({ city }) {
   }
 
   return (
-    <div className="flex flex-col items-center w-full p-4 m-2 bg-white rounded-xl border-yellow-500 shadow text-black">
+    <div className="box-border flex w-full min-w-0 max-w-full flex-col items-center rounded-xl bg-white p-4 text-black shadow">
       <WeatherIcon condition={currentWeather.weather[0].main} />
       <h2>{currentWeather.name}</h2>
       <p>{currentWeather.main.temp}°C</p>
