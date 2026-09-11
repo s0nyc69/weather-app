@@ -12,10 +12,10 @@ export default function HighlightCarousel({ highlightedCities = [] }) {
     }
 
     return (
-        <div className="w-full min-w-0 max-w-full p-4">
+        <div className="p-4">
           <div
             ref={carouselRef}
-            className="flex min-w-0 snap-x snap-mandatory gap-4 overflow-x-auto pb-2 md:grid md:grid-cols-5 md:overflow-visible"
+            className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 md:grid md:grid-cols-5 md:overflow-visible mx-auto"
           >
             {highlightedCities.map((highlightedCity) => (
               <div
