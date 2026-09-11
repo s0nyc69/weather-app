@@ -33,7 +33,7 @@ function App() {
         {highlightedCities.length > 0 && (
           <HighlightCarousel highlightedCities={highlightedCities} />
         )}
-        <div className="flex w-full min-w-0 flex-1 flex-col items-center gap-4 px-4">
+        <div className="flex w-full min-w-0 max-w-md flex-1 flex-col items-center gap-4 px-4">
           <h1 className="text-3xl font-bold underline">Weathever!</h1>
           <div className="flex flex-col gap-2 w-full max-w-lg items-center">
             <label htmlFor="city">Stadt:</label>
